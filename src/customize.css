@@ -1,0 +1,80 @@
+:root {
+    --primary-color: #161A1D;
+    --secondary-color: #6F2DBD;
+    --secondary-color-2: #8A61FF;
+    --third-color: #FFCF33;
+    --fourth-color: #EDF2F4;
+    --fifth-color: #E9ECEF;
+    --back-color: #F7F6F7;
+    --secondary-back-color: #FFFFFF;
+    --gray: #434343;
+    --black-xd: #000000;
+    --barely-used-gray: #7E7E7E;
+    --barely-used-gray-2: #ADADAD;
+    --scrollbar-color: #8EB5F0;
+    --error-color: #FF4848;
+}
+body.no-scroll {
+    overflow-y: hidden;
+}
+.custom-title {
+    font-size: 30px;
+    padding: 0;
+    margin:0;
+    color: var(--back-color);
+}
+.custom-title-2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--secondary-color);
+    padding: 0;
+    margin:0;
+}
+.custom-title-3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+.custom-title-4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+.custom-error-title {
+    color: var(--error-color);
+    font-size: 25px;
+    font-weight: 800;
+    margin: 0;
+}
+@media (max-height: 648.67px) {
+    .custom-error-title {
+        font-size: 18px;
+    }
+}
+.custom-subtitle {
+    font-size: 20px;
+    margin: 0 0 5px 0;
+    padding: 0;
+    color: #434343;
+    font-weight: 500;
+}
+.custom-subtitle-2 {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    color: var(--secondary-back-color);
+    font-weight: 400;
+}
+.custom-subtitle-3 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #9E9C9C;
+    padding: 0;
+    margin: 15px 0 0 0;
+}
+.custom-purple-subtitle {
+    color: var(--secondary-color);
+    font-weight: 600;
+}
